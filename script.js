@@ -17,3 +17,5 @@ document.addEventListener("DOMContentLoaded", () => {
         }, index * 2000); // Задержка перед показом следующего изображения
     });
 });
+
+/*Анимация 2 */
