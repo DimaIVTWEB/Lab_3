@@ -50,3 +50,33 @@ footer {
     color: white;
     padding: 20px 0;
     text-align: center;
+}
+
+
+
+.animation-container {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative; /* Добавлено для корректного позиционирования изображений */
+}
+
+.route {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    opacity: 0; /* Изображения будут появляться через JS */
+    transition: opacity 0.5s ease;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Центрирование изображений */
+}
+@keyframes draw {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
