@@ -130,7 +130,7 @@ footer {
     color: white;
     background-color: #2c0d3a;
     padding: 0 5px;
-    pointer-events: none; /* Ensure the label doesn't interfere with input focus */
+    pointer-events: none;
 }
 
 .input-field {
